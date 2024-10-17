@@ -127,7 +127,7 @@ export const Circle = styled.a`
   display: flex;
   width: 1.5vw;
   height: 2vw;
-  background: url("../../../public/Arrow.svg");
+  //background: url("../../../public/Arrow.svg");
 
   //clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   //background: white;
@@ -150,7 +150,7 @@ export const CircleText = styled.div`
   height: 135px;
   width: 135px;
 
-  background: url("/Text.svg") no-repeat center bottom;
+  background: url("/Text.png") no-repeat center bottom;
   background-size: contain;
   animation: ${rotate} 10s linear infinite;
 
@@ -303,13 +303,13 @@ export const ButtonConsult = styled.button`
     content: "";
     width: 51px;
     height: 32px;
-    background: url("/Elements.svg") no-repeat center;
+    background: url("/Elements.png") no-repeat center;
   }
   &:after {
     content: "";
     width: 51px;
     height: 32px;
-    background: url("/Elements.svg") no-repeat center;
+    background: url("/Elements.png") no-repeat center;
     transform: rotate(180deg);
   }
 `;
