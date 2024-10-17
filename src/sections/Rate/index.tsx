@@ -1,4 +1,4 @@
-import { Container } from "@/styled.root.ts";
+import { Container } from "../../styled.root.ts";
 import {
   Card,
   CardDescription,
@@ -7,7 +7,7 @@ import {
   CardWrapper,
   Title,
   Type,
-} from "@/sections/Rate/styled.ts";
+} from "./styled.ts";
 
 const Rate = () => {
   return (
