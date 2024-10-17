@@ -150,7 +150,7 @@ export const CircleText = styled.div`
   height: 135px;
   width: 135px;
 
-  background: url("../../../public/Text.svg") no-repeat center bottom;
+  background: url("/Text.svg") no-repeat center bottom;
   background-size: contain;
   animation: ${rotate} 10s linear infinite;
 
@@ -303,13 +303,13 @@ export const ButtonConsult = styled.button`
     content: "";
     width: 51px;
     height: 32px;
-    background: url(../../../public/Elements.svg) no-repeat center;
+    background: url("/Elements.svg") no-repeat center;
   }
   &:after {
     content: "";
     width: 51px;
     height: 32px;
-    background: url(../../../public/Elements.svg) no-repeat center;
+    background: url("/Elements.svg") no-repeat center;
     transform: rotate(180deg);
   }
 `;
