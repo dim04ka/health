@@ -14,8 +14,8 @@ import {
   Links,
   BlockWrapper,
   WrapperCircle,
-} from "@/sections/Header/styled.ts";
-import { Container } from "@/styled.root.ts";
+} from "./styled.ts";
+import { Container } from "../../styled.root.ts";
 import IconTelegram from "../../../public/telegram.svg";
 import IconInstagram from "../../../public/insta.svg";
 
