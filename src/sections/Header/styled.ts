@@ -1,7 +1,5 @@
 import styled, { keyframes } from "styled-components";
 
-import ImagePhoto from "../../../public/Photo.png";
-
 export const Section = styled.div`
   font-size: 0.9vw;
   color: rgba(255, 255, 255, 1);
@@ -186,7 +184,7 @@ export const Block = styled.div`
   &:before {
     content: "";
     position: absolute;
-    background: url(${ImagePhoto}) no-repeat center bottom;
+    background: url("/Photo.png") no-repeat center bottom;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -207,7 +205,6 @@ export const Block = styled.div`
     &:before {
       content: "";
       width: 34.3vw;
-      background: url("../../../public/Photo.png") no-repeat center bottom;
       background-size: contain;
       height: 35vw;
     }
