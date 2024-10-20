@@ -298,6 +298,8 @@ export const ButtonConsult = styled.button`
     margin-top: 20px;
     font-size: 16px;
     height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   &:before {
     content: "";
