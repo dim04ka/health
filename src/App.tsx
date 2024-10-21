@@ -4,6 +4,7 @@
 import Header from "./sections/Header";
 import Rate from "./sections/Rate";
 import About from "./sections/About";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Rate />
       <About />
+      <Footer />
     </div>
   );
 }
