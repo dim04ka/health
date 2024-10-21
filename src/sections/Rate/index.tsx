@@ -59,7 +59,7 @@ const Rate = () => {
             </ul>
             <CardFooter>
               <button>ОФОРМИТЬ</button>
-              <button>$320</button>
+              <button>$440</button>
             </CardFooter>
           </Card>
           <Type>
