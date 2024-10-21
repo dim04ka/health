@@ -5,15 +5,18 @@ import Header from "./sections/Header";
 import Rate from "./sections/Rate";
 import About from "./sections/About";
 import Footer from "./sections/Footer";
+import Faq from "./sections/FAQ";
+import { AppWrapper } from "./styled.root.ts";
 
 function App() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 100 }}>
+    <AppWrapper>
       <Header />
       <Rate />
       <About />
+      <Faq />
       <Footer />
-    </div>
+    </AppWrapper>
   );
 }
 
