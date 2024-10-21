@@ -97,6 +97,7 @@ export const CardFooter = styled.div`
     color: rgba(20, 20, 20, 1);
     font-family: Inter, sans-serif;
     font-weight: bold;
+    border-radius: 0 0 0 10px;
     @media (max-width: 1280px) {
       border-radius: 0 0 10px 10px;
     }

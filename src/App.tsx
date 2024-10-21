@@ -7,6 +7,7 @@ import About from "./sections/About";
 import Footer from "./sections/Footer";
 import Faq from "./sections/FAQ";
 import { AppWrapper } from "./styled.root.ts";
+import Consultation from "./sections/Consultation";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Rate />
       <About />
+      <Consultation />
       <Faq />
       <Footer />
     </AppWrapper>
