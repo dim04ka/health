@@ -8,6 +8,7 @@ import Footer from "./sections/Footer";
 import Faq from "./sections/FAQ";
 import { AppWrapper } from "./styled.root.ts";
 import Consultation from "./sections/Consultation";
+import Video from "./sections/Video";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Consultation />
       <Faq />
+      <Video />
       <Footer />
     </AppWrapper>
   );
