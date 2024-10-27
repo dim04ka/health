@@ -9,6 +9,7 @@ import Faq from "./sections/FAQ";
 import { AppWrapper } from "./styled.root.ts";
 import Consultation from "./sections/Consultation";
 import Video from "./sections/Video";
+import Result from "./sections/Result";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Rate />
       <About />
       <Consultation />
+      <Result />
       <Faq />
       <Video />
       <Footer />
